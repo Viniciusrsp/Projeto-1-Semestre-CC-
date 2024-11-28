@@ -1,0 +1,240 @@
+@import url("https://fonts.googleapis.com/ccs?family=poppins:wght@400;500;600;700&display=swap");
+
+*{
+    margin: 0;
+    padding: 0;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: "poppins", sans-serif;
+}
+
+body{
+    background: #fff;
+    background-image:url(/IMG/ong.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+nav{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    height: 100%;
+    left: 0;
+    background: #ffffff;
+    width: 80px;
+    overflow: hidden;
+    transition: width 0.2s linear;
+    box-shadow: 0 20px 35px rgba(0, 0, 0, 0.1);  
+}
+
+/* Logo */
+.logo{
+text-align: center;
+display: flex;
+transition: all 0.5s ease;
+margin: 10px 0 0 10px;
+}
+
+.logo-2{
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+}
+
+.logo span{
+    font-weight: bold;
+    padding-left: 15px;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+/* Barra Lateral */
+a{
+    position: relative;
+    color: #000;
+    font-size: 14px;
+    display: table;
+    width: 300px;
+    padding: 10px;
+}
+
+.fas{
+    position: relative;
+    width: 70px;
+    height: 40px;
+    top: 14px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.nav-item{
+    position: relative;
+    top: 8px;
+    margin-left: 0px;
+}
+
+.question{
+    position: absolute;
+    bottom: 0;
+    margin-left: 4px;
+}
+a:hover{
+    background: rgb(167, 155, 155);
+}
+
+nav:hover{
+    width: 280px;
+    transition: all 0.5s ease;
+    z-index: 900;
+}
+
+  /*  margin-left: 10px; Para deixar um espaço à esquerda do texto */
+
+.main {
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 50px;
+    background-color: rgba(230, 230, 230, 230);
+    color: #202020;
+    width: 300px;
+    height: 500px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+.card>h1 {
+    font-size: 25px;
+    padding-top: 10px;
+}
+
+.card>p {
+    font-size: 16px;
+    padding: 20px 20px;
+}
+
+.site{
+    display: block;
+    text-align: center;
+    font-size: 17px;
+    padding: 10px 8px;
+    border: none;
+    background: #000;
+    color: #fff;
+    border-radius: 15px;
+    font-weight: 600;
+    width: 50%;
+    left: 25%;
+    margin-top: auto;
+    margin-bottom: 10px;
+}
+
+.site:hover{
+    background: #000;
+}
+
+.card>img {
+    width: 100%;
+    height: 180px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.hover-text {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+    border-radius: 5px;
+    z-index: 1000;
+    transition: opacity 0.3s ease;
+    opacity: 0;
+    font-size: x-large;
+    font-style: oblique;
+}
+.hover-text.visible {
+    display: block;
+    opacity: 1;
+    
+}
+
+/* Pagina inicial */
+
+.tumbnail{
+    width: 100%;
+    margin: 0px;
+    padding-left: 80px;
+    display: block;
+    height: 500px;
+}
+
+.proj{
+    text-align: center;
+}
+
+.media-logo{
+    margin: 0;
+    height: 30px;
+    padding-left: 80px;
+}
+
+.media-logo-2{
+    margin: 0;
+    height: 30px;
+    padding-left: 80px;
+    gap: 10px;
+    text-align: center;
+}
+
+.social-media:hover {
+    background: none; /* Remove o fundo ao passar o mouse */
+    color: inherit;   /* Mantém a cor original */
+    text-decoration: none; /* Garante que não haja sublinhado */
+}
+
+.social-media-2:hover {
+    background: none; /* Remove o fundo ao passar o mouse */
+    color: inherit;   /* Mantém a cor original */
+    text-decoration: none; /* Garante que não haja sublinhado */
+}
+
+div.social-container {
+    display: flex;
+    justify-content: center; /* Centraliza no eixo horizontal */
+    gap: 10px; /* Espaçamento entre as imagens */
+    align-items: center; /* Centraliza no eixo vertical */
+}
+.social-container div {
+    display: flex;
+}
+
+div.social-container {
+    display: flex;
+    justify-content: center;
+    gap: 10px; /* Espaçamento entre as imagens */
+    align-items: center;
+}
+
+.contato{
+    text-align: center;
+}
+
+.sobre-ong{
+    text-align: center;
+}
+
+.texto-ong{
+    text-align: center;
+    padding-left: 90px;
+    font-size: large;
+}
