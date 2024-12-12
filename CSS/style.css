@@ -197,22 +197,22 @@ nav:hover{
 }
 
 .social-media:hover {
-    background: none; /* Remove o fundo ao passar o mouse */
-    color: inherit;   /* Mantém a cor original */
-    text-decoration: none; /* Garante que não haja sublinhado */
+    background: none;
+    color: inherit; 
+    text-decoration: none;
 }
 
 .social-media-2:hover {
-    background: none; /* Remove o fundo ao passar o mouse */
-    color: inherit;   /* Mantém a cor original */
-    text-decoration: none; /* Garante que não haja sublinhado */
+    background: none; 
+    color: inherit;   
+    text-decoration: none; 
 }
 
 div.social-container {
     display: flex;
-    justify-content: center; /* Centraliza no eixo horizontal */
-    gap: 10px; /* Espaçamento entre as imagens */
-    align-items: center; /* Centraliza no eixo vertical */
+    justify-content: center; 
+    gap: 10px; 
+    align-items: center; 
 }
 .social-container div {
     display: flex;
@@ -221,7 +221,7 @@ div.social-container {
 div.social-container {
     display: flex;
     justify-content: center;
-    gap: 10px; /* Espaçamento entre as imagens */
+    gap: 10px; 
     align-items: center;
 }
 
